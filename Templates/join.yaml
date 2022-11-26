@@ -6,4 +6,4 @@ Resources:
       InstanceType: t2.micro
       Tags:
         - Key: "Name"
-          Value: "MyFirstInstanceFormation"
+          Value: !Join ["-", [my, inst, from, cloudformation]]
