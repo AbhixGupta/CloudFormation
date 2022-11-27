@@ -10,3 +10,18 @@ Using templates, you may quickly deploy all the resources your application needs
 - Locally or in an S3 bucket, save your code template.
 - Create a stack based on your template using AWS CloudFormation.
 - Your template's specified stack resources are built and configured by AWS CloudFormation.
+
+## Problems
+
+- There is very high cost to maintain the servers with storages, Congiguration and dependencies.
+- Extra cost for Backup with AMI, generally for storage
+- Manually setup of the whole infrasture is time consuming and inefficient.
+- There are chances of error due to manual process.
+
+## Solution
+
+- CloudFormation is an ideal tool to Automate the AWS Stack.
+- Automatic Setup of the whole infrastrure with any human erorrs due to manual process.
+- Maintain state if each and every Infrastruture.
+- All the dependies with their Version Control service.
+- Repeatable and reusable.
