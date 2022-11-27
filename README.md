@@ -25,3 +25,20 @@ Using templates, you may quickly deploy all the resources your application needs
 - Maintain state if each and every Infrastruture.
 - All the dependies with their Version Control service.
 - Repeatable and reusable.
+
+### Templates:
+
+1. It's a Text file which can be YAML or JSON.
+2. These files serves as input template for the CloudFormation.
+3. These templates descries the state of Infrastructure.
+4. THese templates are first read by CloudFormation to create the stack.
+5. Templates can be updated to make changes.
+6. These Resources are putted together as a single unit.
+
+### Change Set:
+
+1. Before Updating a stack, you have a choice to generate a change set.
+2. A change set allows you to see how chanes will impact your existing resources, so that you have chance to save your data or to make backup.
+3. When working with live systems:
+   - It will create a new intance when change is intiated
+   - It will delete the old stack, which can result in Data Loss.
